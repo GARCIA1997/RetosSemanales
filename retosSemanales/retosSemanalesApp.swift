@@ -11,7 +11,7 @@ import SwiftUI
 struct retosSemanalesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeUIView()
         }
     }
 }

@@ -11,6 +11,8 @@
 		D188135D2C050CE700948D13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188135C2C050CE700948D13 /* ContentView.swift */; };
 		D188135F2C050CE900948D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D188135E2C050CE900948D13 /* Assets.xcassets */; };
 		D18813622C050CE900948D13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18813612C050CE900948D13 /* Preview Assets.xcassets */; };
+		D188136B2C050EB100948D13 /* RetosSemana1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188136A2C050EB100948D13 /* RetosSemana1.swift */; };
+		D188136E2C05101700948D13 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D188136D2C05101700948D13 /* HomeUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D188135C2C050CE700948D13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D188135E2C050CE900948D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D18813612C050CE900948D13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D188136A2C050EB100948D13 /* RetosSemana1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetosSemana1.swift; sourceTree = "<group>"; };
+		D188136D2C05101700948D13 /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		D18813592C050CE700948D13 /* retosSemanales */ = {
 			isa = PBXGroup;
 			children = (
+				D18813682C050D7C00948D13 /* RetoSemana1 */,
 				D188135A2C050CE700948D13 /* retosSemanalesApp.swift */,
 				D188135C2C050CE700948D13 /* ContentView.swift */,
 				D188135E2C050CE900948D13 /* Assets.xcassets */,
@@ -65,6 +70,31 @@
 				D18813612C050CE900948D13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D18813682C050D7C00948D13 /* RetoSemana1 */ = {
+			isa = PBXGroup;
+			children = (
+				D188136C2C050FF100948D13 /* Views */,
+				D18813692C050E7A00948D13 /* Models */,
+			);
+			path = RetoSemana1;
+			sourceTree = "<group>";
+		};
+		D18813692C050E7A00948D13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D188136A2C050EB100948D13 /* RetosSemana1.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D188136C2C050FF100948D13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D188136D2C05101700948D13 /* HomeUIView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D188135D2C050CE700948D13 /* ContentView.swift in Sources */,
+				D188136E2C05101700948D13 /* HomeUIView.swift in Sources */,
 				D188135B2C050CE700948D13 /* retosSemanalesApp.swift in Sources */,
+				D188136B2C050EB100948D13 /* RetosSemana1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
